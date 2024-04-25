@@ -17,15 +17,15 @@
 # puts mensagem
 
 
-# name = "Yure"
+name = "Yure"
 
-# mensagem = %Q(bem vindo #{name} ao meu programa!)
-
-# puts mensagem
-
-
-name = "name name"
-
-mensagem = %Q(o tamanho string é #{name.length})
+mensagem = %Q(bem vindo #{name} ao meu programa!)
 
 puts mensagem
+
+
+# name = "name name"
+
+# mensagem = %Q(o tamanho string é #{name.length})
+
+# puts mensagem
