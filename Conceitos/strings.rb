@@ -1,31 +1,13 @@
-# strings 
+## symbol - imutavel 
 
-# var = "Yure Nathan"
+# e = : teste
 
-# mensagem = "Olá #{var}"
+## Hash é o objeto em ruby 
 
-# puts mensagem
+# colecao = {curso: "ruby", duracao: 20, idioma: "portugues"}
 
+# puts colecao[:curso]
 
-# Herodoc 
+nome = "yure"
 
-# nome = "Yure"
-
-# mensagem = <<~TEXT
-#   "Olá #{nome} bem vindo!"
-# TEXT
-# puts mensagem
-
-
-name = "Yure"
-
-mensagem = %Q(bem vindo #{name} ao meu programa!)
-
-puts mensagem
-
-
-# name = "name name"
-
-# mensagem = %Q(o tamanho string é #{name.length})
-
-# puts mensagem
+puts nome.capitalize
